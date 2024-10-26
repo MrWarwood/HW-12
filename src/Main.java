@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println();
 
-        Book warAndPeace = new Book("Война и мир", tolstoy , 1869);
+        Book warAndPeace = new Book("Война и мир", tolstoy, 1869);
         System.out.println(warAndPeace.getBook());
         System.out.println(warAndPeace.getAuthor());
         System.out.println(warAndPeace.getAge());
@@ -32,12 +32,6 @@ public class Main {
         System.out.println(mumu.getAge());
         mumu.setAge(2024);
         System.out.println("Замена года на " + mumu.getAge());
-
-        System.out.println();
-
-        System.out.println(Objects.equals(warAndPeace, mumu));
-        System.out.println(Objects.equals(tolstoy, turgenev));
-        System.out.println(Objects.hash());
 
     }
 }
