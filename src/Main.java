@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("hw 12");
@@ -30,6 +32,12 @@ public class Main {
         System.out.println(mumu.getAge());
         mumu.setAge(2024);
         System.out.println("Замена года на " + mumu.getAge());
+
+        System.out.println();
+
+        System.out.println(Objects.equals(warAndPeace, mumu));
+        System.out.println(Objects.equals(tolstoy, turgenev));
+        System.out.println(Objects.hash());
 
     }
 }
