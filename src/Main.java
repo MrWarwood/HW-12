@@ -32,6 +32,5 @@ public class Main {
         System.out.println(mumu.getAge());
         mumu.setAge(2024);
         System.out.println("Замена года на " + mumu.getAge());
-
     }
 }
